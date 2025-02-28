@@ -3,7 +3,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import SAAS from "@/public/SAAS.png";
 import Khanakart from "@/public/KhanaKart.png";
 import ShoppingWebsite from "@/public/ShoppingWebsite.png";
-import Zoom from "@/public/Zoom.png";
+import Lms from "@/public/Lms.png";
 
 export const links = [
   {
@@ -39,7 +39,7 @@ export const experiencesData = [
     description:
       "Started my journey in Computer Engineering, where I was introduced to programming and quickly developed a passion for web development.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022 - Present",
+    date: "Present",
   },
   {
     title: "Exploring Web Development",
@@ -47,7 +47,7 @@ export const experiencesData = [
     description:
       "Began exploring web development alongside my studies, learning HTML, CSS, and JavaScript. Completed various projects and gained hands-on experience with front-end development.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022 - 2023",
+    date: " present",
   },
   {
     title: "Coding Competitions & Hackathons",
@@ -55,18 +55,18 @@ export const experiencesData = [
     description:
       "Participated in numerous coding competitions and hackathons, gaining valuable experience in collaborative problem solving and innovative project development.Competing in College and national-level hackathons.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022 - Present",
+    date: "Present",
   },
 ] as const;
 
 
 export const projectsData = [
   {
-    title: "Zoom Clone",
+    title: "Learning Management System",
     description:
-      "Built a Zoom clone focusing on real-time communication, user authentication, and responsive UI.",
-    tags: ["Next.js", "Steam API", "MongoDB", "WebSockets", "Tailwind"],
-    imageUrl: Zoom,  
+      "An AI-powered online learning platform with live streaming, progress tracking, assignments, and interactive chatbot support.",
+    tags: ["Next.js", "Tailwind", "MongoDB", "prisma", "llama", "socket.io"],
+    imageUrl: Lms,  
   },
   {
     title: "Ecommerce Website",
